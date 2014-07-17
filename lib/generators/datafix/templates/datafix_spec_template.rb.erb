@@ -1,7 +1,11 @@
 require "spec_helper"
 require Rails.root.join("db", "datafixes", "<%= "#{timestamp}_#{file_name}" %>")
 
+<%- if !defined?(RSpec::Version::STRING) || RSpec::Version::STRING.start_with?("1.") || RSpec::Version::STRING.start_with?("2.") -%>
 describe Datafixes::<%= file_name.camelize %> do
+<%- else -%>
+RSpec.describe Datafixes::<%= file_name.camelize %>, type: :datafixes do
+<%- end -%>
   describe ".up" do
     pending "Needs tests"
   end
