@@ -1,6 +1,7 @@
 # Datafix
 
 [![Build Status](https://secure.travis-ci.org/Casecommons/datafix.svg?branch=master)](https://travis-ci.org/Casecommons/datafix)
+[![Gem Version](https://img.shields.io/gem/v/datafix.svg?style=flat)](https://rubygems.org/gems/datafix)
 
 Datafix provides a template generator for documenting and testing database hotfixes
 
