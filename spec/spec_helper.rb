@@ -3,7 +3,6 @@ require 'bundler/setup'
 
 require 'active_record'
 require 'database_cleaner'
-require 'pry'
 
 require 'pg'
 require 'datafix'
