@@ -55,3 +55,7 @@ To run the spec, execute:
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
+## License
+
+Copyright © 2012–2015 Case Commons, LLC.
+Licensed under the MIT license, available in the “LICENSE” file.
