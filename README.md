@@ -1,5 +1,7 @@
 # Datafix
 
+[![Build Status](https://secure.travis-ci.org/Casecommons/datafix.svg?branch=master)](https://travis-ci.org/Casecommons/datafix)
+
 Datafix provides a template generator for documenting and testing database hotfixes
 
 ## Installation
