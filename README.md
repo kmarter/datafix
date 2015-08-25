@@ -9,7 +9,7 @@ Datafix provides a template generator for documenting and testing database hotfi
 
 Add this line to your application's Gemfile:
 
-    gem 'datafix', :github => 'Casecommons/datafix'
+    gem 'datafix', :github => 'kmarter/datafix'
 
 And then execute:
 
